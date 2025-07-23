@@ -3,7 +3,7 @@
 on:
   push:
     branches:
-      - main  # 你想部署的分支
+      - master  # 你想部署的分支
 
 env:
   DOTNET_VERSION: '8.0'  # 你实际使用的 .NET 版本
