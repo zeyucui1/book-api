@@ -1,12 +1,12 @@
-﻿name: Deploy .NET API to AWS Elastic Beanstalk
+name: Deploy .NET API to AWS Elastic Beanstalk
 
 on:
   push:
     branches:
-      - master  # 你想部署的分支
+      - master  # ???????
 
 env:
-  DOTNET_VERSION: '8.0'  # 你实际使用的 .NET 版本
+  DOTNET_VERSION: '8.0'  # ?????? .NET ??
 
 jobs:
   deploy:
